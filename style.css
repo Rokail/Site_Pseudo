@@ -1,0 +1,33 @@
+Body {
+    display: block;
+    margin: 0px;
+    padding: 10px;
+}
+
+.after::after {
+    content: " <- after";
+}
+.before::before {
+    content: "before -> ";
+}
+#fl::first-letter{
+    color: salmon;
+    font-size: 60px;
+}
+.divv{
+    border: 1px black solid;
+    width: fit-content;
+}
+#fln::first-line{
+    color: red;
+}
+.mark::marker{
+    color: pink;
+}
+#select::selection{
+    color: chocolate;
+    background-color: black;
+}
+.act:active{
+    color: ;
+}
