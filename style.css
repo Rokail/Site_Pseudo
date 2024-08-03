@@ -29,5 +29,17 @@ Body {
     background-color: black;
 }
 .act:active{
-    color: ;
+    color: salmon ;
+    background-image: url(Bonzi_Buddy.png);
+}
+input[type=text]:enabled {
+    background: #65ff51;
+}
+input[type=text]:disabled{
+    background: rgb(240, 128, 128);
+}
+.emp:empty {
+    width: 200px;
+    height: 20px;
+    background-color: violet;
 }
